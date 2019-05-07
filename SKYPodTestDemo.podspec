@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "SKYPodTestDemo"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of SKYPodTestDemo."
 #spec.description  = <<-DESC
 
@@ -68,7 +68,8 @@ Pod::Spec.new do |spec|
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-spec.source_files = "Pod/Classes/**/*"
+spec.source_files = "SKYPodTestDemo/*","SKYPodTestDemo/*.{h,m}","SKYPodTestDemo/**/*.h"
+#"SKYPodTestDemo/*.{h,m}"
 #""'SKYPodTestDemo/SKYPodDemo.h'
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
