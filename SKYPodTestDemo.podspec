@@ -11,10 +11,10 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SKYPodTestDemo"
   spec.version      = "0.0.5"
-  spec.summary      = "A short description of SKYPodTestDemo."
+  spec.summary      = "这个是测试"
 #spec.description  = <<-DESC
 
-  spec.homepage     = "https://github.com/skyRGB/SKYGitPubPodDemo"
+  spec.homepage     = "https://github.com/skyGitTao/SKYGitPubPodDemo"
   # spec.screenshots  = "www.example.com/screenshots_1.gif","www.example.com/screenshots_2.gif"
 
 
@@ -50,7 +50,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/skyRGB/SKYGitPubPodDemo.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/skyGitTao/SKYGitPubPodDemo.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
