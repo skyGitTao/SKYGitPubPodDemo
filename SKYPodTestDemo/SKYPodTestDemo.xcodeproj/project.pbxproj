@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2B0122B4228123B400EB4A68 /* SKYPodTestDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0122B2228123B400EB4A68 /* SKYPodTestDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0122BC2281356500EB4A68 /* SKYTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0122BA2281356500EB4A68 /* SKYTestViewController.h */; };
+		2B0122BD2281356500EB4A68 /* SKYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0122BB2281356500EB4A68 /* SKYTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B0122AF228123B400EB4A68 /* SKYPodTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKYPodTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0122B2228123B400EB4A68 /* SKYPodTestDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKYPodTestDemo.h; sourceTree = "<group>"; };
 		2B0122B3228123B400EB4A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0122BA2281356500EB4A68 /* SKYTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKYTestViewController.h; sourceTree = "<group>"; };
+		2B0122BB2281356500EB4A68 /* SKYTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKYTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				2B0122B2228123B400EB4A68 /* SKYPodTestDemo.h */,
+				2B0122BA2281356500EB4A68 /* SKYTestViewController.h */,
+				2B0122BB2281356500EB4A68 /* SKYTestViewController.m */,
 				2B0122B3228123B400EB4A68 /* Info.plist */,
 			);
 			path = SKYPodTestDemo;
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B0122B4228123B400EB4A68 /* SKYPodTestDemo.h in Headers */,
+				2B0122BC2281356500EB4A68 /* SKYTestViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0122BD2281356500EB4A68 /* SKYTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
