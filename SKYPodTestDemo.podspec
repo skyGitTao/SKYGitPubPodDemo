@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "SKYPodTestDemo"
-  spec.version      = "1.0.8"
+  spec.version      = "2.0.8"
   spec.summary      = "这个是测试"
 #spec.description  = <<-DESC
 

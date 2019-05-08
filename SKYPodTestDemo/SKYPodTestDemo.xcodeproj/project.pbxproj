@@ -12,6 +12,8 @@
 		2B0122BD2281356500EB4A68 /* SKYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0122BB2281356500EB4A68 /* SKYTestViewController.m */; };
 		2B0122C422817C3300EB4A68 /* SKYTwoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0122C222817C3300EB4A68 /* SKYTwoViewController.h */; };
 		2B0122C522817C3300EB4A68 /* SKYTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0122C322817C3300EB4A68 /* SKYTwoViewController.m */; };
+		2B0122EA2282ABE300EB4A68 /* SKYThreeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0122E82282ABE300EB4A68 /* SKYThreeViewController.h */; };
+		2B0122EB2282ABE300EB4A68 /* SKYThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0122E92282ABE300EB4A68 /* SKYThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2B0122BB2281356500EB4A68 /* SKYTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKYTestViewController.m; sourceTree = "<group>"; };
 		2B0122C222817C3300EB4A68 /* SKYTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKYTwoViewController.h; sourceTree = "<group>"; };
 		2B0122C322817C3300EB4A68 /* SKYTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKYTwoViewController.m; sourceTree = "<group>"; };
+		2B0122E82282ABE300EB4A68 /* SKYThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKYThreeViewController.h; sourceTree = "<group>"; };
+		2B0122E92282ABE300EB4A68 /* SKYThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKYThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				2B0122BB2281356500EB4A68 /* SKYTestViewController.m */,
 				2B0122C222817C3300EB4A68 /* SKYTwoViewController.h */,
 				2B0122C322817C3300EB4A68 /* SKYTwoViewController.m */,
+				2B0122E82282ABE300EB4A68 /* SKYThreeViewController.h */,
+				2B0122E92282ABE300EB4A68 /* SKYThreeViewController.m */,
 				2B0122B3228123B400EB4A68 /* Info.plist */,
 			);
 			path = SKYPodTestDemo;
@@ -71,6 +77,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0122EA2282ABE300EB4A68 /* SKYThreeViewController.h in Headers */,
 				2B0122B4228123B400EB4A68 /* SKYPodTestDemo.h in Headers */,
 				2B0122BC2281356500EB4A68 /* SKYTestViewController.h in Headers */,
 				2B0122C422817C3300EB4A68 /* SKYTwoViewController.h in Headers */,
@@ -146,6 +153,7 @@
 			files = (
 				2B0122BD2281356500EB4A68 /* SKYTestViewController.m in Sources */,
 				2B0122C522817C3300EB4A68 /* SKYTwoViewController.m in Sources */,
+				2B0122EB2282ABE300EB4A68 /* SKYThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
